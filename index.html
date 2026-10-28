@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PrintPrice - Imposición y costos para imprentas</title>
+<meta name="description" content="Software de imposición y costos para imprentas: menor desperdicio de papel, retazos de cualquier medida y cotización automática.">
+<style>
+:root{--ink:#0F1B2D;--muted:#3B4658;--bg:#F4F6F8;--accent:#0B6E4F;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:18px 0}
+.logo{font-size:22px;font-weight:700}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:14px 24px;border-radius:6px;text-decoration:none;font-weight:600}
+.btn.alt{background:transparent;color:var(--ink);border:2px solid var(--ink);padding:12px 22px}
+h1{font-size:clamp(32px,6vw,52px);line-height:1.1;letter-spacing:-.02em;margin:0 0 18px;max-width:820px}
+h2{font-size:clamp(26px,4vw,32px);margin:0 0 24px;letter-spacing:-.01em}
+.hero{padding:40px 0 64px}
+.hero p{font-size:19px;color:var(--muted);max-width:720px;margin:0 0 24px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+section{padding:56px 0}
+.white{background:#fff}
+.video{position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:#000}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{background:var(--card);border-radius:10px;padding:24px}
+.card h3{margin:0 0 8px;font-size:19px}
+.card p{margin:0;color:var(--muted)}
+.dark{background:var(--ink);color:#fff}
+.dark p{color:#D5DCE6;font-size:18px;max-width:760px}
+.price{font-size:38px;font-weight:700;margin:6px 0}
+.price-card{background:#fff;border-radius:10px;padding:28px}
+.price-card.main{border:2px solid var(--accent)}
+.steps{margin-top:28px}
+.contact{background:var(--accent);color:#fff;text-align:center}
+.contact .btn{background:#fff;color:var(--accent);margin-top:8px}
+.contact a.mail{color:#fff}
+footer{padding:24px 0;font-size:14px;color:var(--muted);text-align:center}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<header>
+<span class="logo">PrintPrice</span>
+<a class="btn" href="#contacto">Pedir demo gratis</a>
+</header>
+
+<div class="hero">
+<h1>Aprovecha cada pliego y cada retazo. Cotiza con el menor desperdicio en segundos.</h1>
+<p>Software de imposición y costos para imprentas offset y digitales. Ingresas cualquier medida por teclado, incluso sobrantes de bodega, y el sistema ordena todas las opciones de la más barata a la más cara.</p>
+<div class="cta">
+<a class="btn" href="https://wa.me/593995498573?text=Hola%20David%2C%20quiero%20probar%20PrintPrice%20con%20una%20medida%20real">Probar con mi medida real</a>
+<a class="btn alt" href="#video">Ver video de 90 segundos</a>
+</div>
+</div>
+</div>
+
+<section class="white" id="video">
+<div class="wrap">
+<h2>Míralo funcionando con datos reales</h2>
+<div class="video">
+<iframe src="https://www.youtube.com/embed/opa6zSrV-Uo" title="Demostración de PrintPrice" allow="accelerometer; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+</div>
+<p style="margin:14px 0 0"><a href="https://youtu.be/opa6zSrV-Uo" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600">Si el video no carga, míralo en YouTube</a></p>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<h2>Qué hace por tu imprenta</h2>
+<div class="grid">
+<div class="card"><h3>Imposición universal</h3><p>Cualquier sustrato: pliegos estándar, retazos o medidas a tu gusto. Prueba todas las combinaciones y muestra el acomodo con menor desperdicio.</p></div>
+<div class="card"><h3>Costos automáticos</h3><p>Papel, placas, pasadas, colores y acabados con fórmulas editables. Tres listas: producción, venta y solo servicios, con o sin papel en un clic, historial, PDF membretado.</p></div>
+<div class="card"><h3>Sugerir ajustes</h3><p>Te dice cuántos milímetros recortar a un diseño para salvar un pliego completo.</p></div>
+<div class="card"><h3>Digital y offset</h3><p>Cualquier cantidad de prensas. En impresión digital, configura la pinza en cero.</p></div>
+<div class="card"><h3>Boletos y numerados</h3><p>Resuelve series consecutivas dejando un diseño exactamente bajo el otro para un corte limpio.</p></div>
+<div class="card"><h3>Revistas y cuadernillos</h3><p>Revistas híbridas con secciones en B/N y color, más tapa. Genera dos PDF de armado, en escala real y en A4.</p></div>
+</div>
+</div>
+</section>
+
+<section class="dark">
+<div class="wrap">
+<h2>¿Eres contador? Lector de facturas con IA, sin internet</h2>
+<p>Procesa facturas en lote con un modelo de IA local: tus datos financieros nunca salen de tu equipo y no pagas por token. Clasifica gastos y exporta a Excel o CSV listo para tu sistema contable.</p>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<h2>Licencia permanente, sin mensualidades</h2>
+<div class="grid">
+<div class="price-card main"><strong>PrintPrice para imprentas</strong><div class="price">Desde $200 USD</div><p style="margin:0;color:var(--muted)">Pago único. Instalación remota incluida.</p></div>
+<div class="price-card"><strong>Lector de facturas con IA</strong><div class="price">$150 USD</div><p style="margin:0;color:var(--muted)">Pago único. Funciona sin conexión.</p></div>
+</div>
+<div class="grid steps">
+<div><strong>1. Demo de 5 minutos</strong><p style="margin:6px 0 0;color:var(--muted)">Me das tus medidas reales y te muestro el resultado por videollamada.</p></div>
+<div><strong>2. Anticipo del 50%</strong><p style="margin:6px 0 0;color:var(--muted)">Reservas tu instalación con el pago inicial.</p></div>
+<div><strong>3. Instalación remota</strong><p style="margin:6px 0 0;color:var(--muted)">Lo instalo y lo dejo funcionando en tu equipo.</p></div>
+</div>
+</div>
+</section>
+
+<section class="contact" id="contacto">
+<div class="wrap">
+<h2 style="margin-bottom:12px">Dame una medida real y te muestro cuánto papel ahorras</h2>
+<p style="font-size:18px;margin:0 0 16px">Sin costo ni compromiso. Escríbeme y lo calculamos juntos.</p>
+<a class="btn" href="https://wa.me/593995498573?text=Hola%20David%2C%20quiero%20probar%20PrintPrice%20con%20una%20medida%20real">Escribir por WhatsApp</a>
+<p style="margin:16px 0 0">o por correo: <a class="mail" href="mailto:davptr3440@gmail.com">davptr3440@gmail.com</a> &nbsp;·&nbsp; <a class="mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=davptr3440@gmail.com&su=Quiero%20probar%20PrintPrice" target="_blank" rel="noopener">Abrir en Gmail</a></p>
+</div>
+</section>
+
+<footer>David, ingeniero de sistemas</footer>
+
+</body>
+</html>
